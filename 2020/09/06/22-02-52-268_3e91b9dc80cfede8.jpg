@@ -1,0 +1,1676 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="typepad-standard" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<!-- head-common -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="http://www.typepad.com/" />
+	<meta name="keywords" content="Voice Over IP Security, VoIP Security, Unified Communications Security, UC Security, voice security, Mark Collier, SecureLogix, toll fraud, Telephony Denial of Service, TDoS, Toll Fraud, Social Engineering, Voice SPAM, Voice Phishing, Vishing" />
+	<meta name="description" content="The best  resource for voice, Voice Over IP (VoIP), Unified Communications (UC), and Collaboration security, including toll fraud, Telephony Denial of Service (TDoS), phishing, voice SPAM, social engineering, and other issues." />
+    <link rel="canonical" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/" />
+
+
+
+        <link rel="stylesheet" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/styles.css?v=6" type="text/css" media="screen" />
+        <link rel="stylesheet" href="https://static.typepad.com/.shared/themes/common/print.css" type="text/css" media="print" />
+
+<link rel="stylesheet" href="https://static.typepad.com/.shared/css/featherlight-gallery.css">
+
+<!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<link rel="alternate" type="application/atom+xml" title="Posts on 'Mark Collier's VoIP/UC Security Blog' (Atom)" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/atom.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Posts on 'Mark Collier's VoIP/UC Security Blog' (RSS 1.0)" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/index.rdf" />
+	<link rel="alternate" type="application/rss+xml" title="Posts on 'Mark Collier's VoIP/UC Security Blog' (RSS 2.0)" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/rss.xml" />
+	<script type="text/javascript">
+		var TPApp = {};
+		TPApp.app_uri = "https://www.typepad.com/";
+	</script>
+	<script type="text/javascript" src="https://static.typepad.com/.shared/js/yui/yahoo-dom-event.js,/js/app/thumbnail-gallery-min.js,/js/app/flyouts-min.js"></script>
+
+
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-225723-36', 'auto', {'name': 'Typepad'}, {'allowLinker': true} );  // Separate tracker for Typepad.
+ga('Typepad.require', 'linker');
+ga('Typepad.linker:autoLink', ['none']);
+ga('Typepad.set', 'dimension1', '6a00d8341fe9d253ef00d8341fea8c53ef');
+ga('Typepad.set', 'dimension2', 'index');
+ga('Typepad.send', 'pageview');
+</script>
+
+
+
+<meta property="og:title" content="Mark Collier's VoIP/UC Security Blog" />
+<meta property="og:site_name" content="Mark Collier's VoIP/UC Security Blog" />
+<meta property="og:type" content="blog" />
+<meta property="og:url" content="https://voipsecurityblog.typepad.com/marks_voip_security_blog/" />
+<meta property="og:description" content="This blog covers Voice, Voice over IP (VoIP), Unified Communications (UC), and collaboration security" />
+<meta property="fb:admins" content="" />
+<meta property="og:image" content="https://up2.typepad.com/6a00d8341fe9d253ef017d41354800970c-220si" />
+
+
+
+	<title>Mark Collier's VoIP/UC Security Blog</title>
+	<link rel="openid.server" href="https://www.typepad.com/services/openid/server" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.typepad.com/services/rsd/6a00d8341fe9d253ef00d8341fea8c53ef" />
+			<link rel="meta" type="application/rdf+xml" title="FOAF" href="https://voipsecurityblog.typepad.com/foaf.rdf" />
+	
+        
+</head>
+
+
+
+<body class="layout-two-column-right index">
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+    FB.init( { apiKey: 'a279adbe87e2b3c505e777af99a5260d', xfbml: true, version: 'v2.8' } );
+};
+( function() {
+    var e = document.createElement( 'script' ); e.async = true;
+    e.src = document.location.protocol + '//connect.facebook.net/en_US/sdk.js';
+    document.getElementById( 'fb-root' ).appendChild( e );
+} )();
+</script>
+
+	
+	<div id="container" class="container">
+		<div id="container-inner" class="pkg">
+			
+        	<div class="row">
+     
+
+
+<a id="home"></a>
+   
+
+<!-- banner -->
+<div id="banner">
+	<div id="banner-inner" class="pkg">
+		
+		<h1 id="banner-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/" accesskey="1">Mark Collier's VoIP/UC Security Blog</a></h1>
+		<h2 id="banner-description">
+			This blog covers Voice, Voice over IP (VoIP), Unified Communications (UC), and collaboration security
+		</h2>
+	</div>
+</div>
+
+
+<div id="nav">
+	<div id="nav-inner">
+		<ul class="nav-list pkg">
+			<li class="nav-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/">Home</a></li>
+			<li class="nav-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/archives.html">Archives</a></li>
+			<li class="nav-list-item"><a href="http://profile.typepad.com/voipsecurityblog">Profile</a></li>
+			<li class="last-nav-list-item nav-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/atom.xml">Subscribe</a></li>
+		</ul>
+	</div>
+</div>
+
+
+
+
+                        <div id="pagebody">
+                        
+
+                                <div id="pagebody-inner" class="pkg">
+                                        <div id="alpha">
+                                                <div id="alpha-inner" class="pkg">
+                                                        
+
+
+
+
+
+<!-- CAROUSEL POSTS -->
+
+
+<!-- entry list sticky -->
+
+
+<!-- REGULAR POSTS -->
+
+
+
+
+
+
+    <h2 class="date-header">November 12, 2016</h2>
+
+	<div class="entry-author-voipsecurityblog entry-type-post entry" id="entry-6a00d8341fe9d253ef01b7c8af0417970b">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/links-to-recent-tdos-articles.html">Links to recent TDoS articles</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p><strong>11/03/2016 -&#0160;</strong><strong>The day the 911 network stood still</strong></p>
+<p><a href="http://www.networkworld.com/article/3137526/security/the-day-the-911-network-stood-still.html">http://www.networkworld.com/article/3137526/security/the-day-the-911-network-stood-still.html</a></p>
+<p><strong>10/24/2016 -&#0160;</strong><strong>DHS working to protect emergency call centers against denial-of-service attacks</strong></p>
+<p><a href="https://gcn.com/articles/2016/10/24/tdos-dhs.aspx?admgarea=TC_SecCybersSec">https://gcn.com/articles/2016/10/24/tdos-dhs.aspx?admgarea=TC_SecCybersSec</a></p>
+<p><strong>09/22/2016 -&#0160;</strong><strong>Schumer calling for increased security of 911 communications nationwide</strong></p>
+<p><a href="http://www.watertowndailytimes.com/news03/schumer-calling-for-increased-security-of-911-communications-nationwide-20160922">http://www.watertowndailytimes.com/news03/schumer-calling-for-increased-security-of-911-communications-nationwide-20160922</a></p>
+<p><strong>09/13/2016 -&#0160;</strong><strong>Answering the call for solutions to 911 TDoS attacks</strong></p>
+<p><a href="https://gcn.com/articles/2016/09/13/tdos-solutions.aspx">https://gcn.com/articles/2016/09/13/tdos-solutions.aspx</a></p>
+<p><strong>09/12/2016 -&#0160;</strong><strong>Researchers warn that hackers can DDoS 911 emergency phone service</strong></p>
+<p><a href="https://www.computerworld.com/article/3118703/security/researchers-warn-that-hackers-can-ddos-911-emergency-phone-service.html">http://www.computerworld.com/article/3118703/security/researchers-warn-that-hackers-can-ddos-911-emergency-phone-service.html</a></p>
+<p><strong>09/12/2016 -</strong><strong>Is an attack on emergency services just one call away?</strong></p>
+<p><a href="https://gcn.com/articles/2016/09/12/tdos-911.aspx">https://gcn.com/articles/2016/09/12/tdos-911.aspx</a></p>
+<p><strong>09/09/2016 -&#0160;</strong><strong>How America’s 911 emergency response system can be hacked</strong></p>
+<p><a href="https://www.washingtonpost.com/news/the-switch/wp/2016/09/09/how-americas-911-emergency-response-system-can-be-hacked/">https://www.washingtonpost.com/news/the-switch/wp/2016/09/09/how-americas-911-emergency-response-system-can-be-hacked/</a></p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 10:54 AM </span> <span class="separator">|</span> <a class="permalink" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/links-to-recent-tdos-articles.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/links-to-recent-tdos-articles.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+    <p class="entry-footer-tags font-entryfooter">
+        Tags:
+        Mark Collier, robocalls, SecureLogix, TDoS, Telephony Denial of Service, Voice security, VoIP security
+    </p>
+    
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341fe9d253ef01b7c8af0417970b'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <h2 class="date-header">November 11, 2016</h2>
+
+	<div class="entry-category-telephony_dos entry-category-uc_security entry-category-voice_security entry-category-voip_security entry-author-voipsecurityblog entry-type-post entry" id="entry-6a00d8341fe9d253ef01b7c8aec571970b">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/some-more-information-about-how-tdos-affects-911-systems.html">Some more information about how TDoS affects 911 systems</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>There have been multiple articles describing a “botnet” of 1000’s of compromised smartphones, which all make calls to a 911 Public Safety Answering Point (PSAP) or some other target. A smartphone-based attack is the primary way to generate a TDoS attack against a PSAP. Using the classic Asterisk/SIP trunk/call generator type of attack, is unlikely to affect 911, since there is no guarantee that calls will be routed to the desired PSAP. An attack leveraging many smartphones in a local area is the most likely way to affect PSAP.</p>
+<p>There is normally significantly more trunking available than there are PSAP attendants. This is logical and common in contact centers, as it allows callers to have their calls “answered” and put into a queue waiting for attendants. For a TDoS attack against 911 to have effect, it needs to “clog” or saturate these trunks. If the attacker can overwhelm the entire trunking capacity, then some legitimate callers won’t have their calls answered. Even if the attack does not overwhelm all trunking, it will still have an impact on attendants, because they will waste a small amount of time answering the TDoS calls. There are also multiple “trunk groups”, which are collections of physical channels into the PSAP. If an attack can overwhelm one of these trunk groups, the attack may not overwhelm the entire capacity of the PSAP, but it will affect legitimate calls coming from that trunk group. The biggest trunk group is normally mobile.</p>
+<p>A large metro area PSAP will have multiple end offices switches, which provide landline access to various geographic areas. Each of these end offices has some amount of dedicated trunking for 911, which may be around 10 trunks. If an attack originates through one of these end offices, the most calls that will reach the PSAP is say 10 simultaneous calls. The attacker can’t overwhelm the PSAP unless they saturate the trunking from all or many of these end offices. However, there is a significant amount of trunking from the mobile network, since generally, the majority of calls to a PSAP, as much as 75%, are mobile. Therefore, this is where the overall PSAP capacity can be saturated. This is also where attacks from a smartphone-based botnet would arrive.</p>
+<p>Furthermore, we also saw a recent actual attack, where a young hacker posted a link on Twitter, to a website with malicious code. There were over 10,000 followers of the Twitter account and of course, the link was obscured though bit.ly. When the link was clicked, the malicious code used the click-to-dial feature on iOS smartphones, in code that looped 1,000,000 times and continually made calls to 911. Most of the people who clicked on the link were in the Phoenix area. What is interesting about this attack is how simple the malicious code was. It wasn’t a sophisticated bit of malware, which leveraged some obscure feature of the smartphone – it simply used the click-to-dial feature in a loop. It wasn&#39;t a botnet. Pretty much anyone could create this malware.</p>
+<p>So in summary, we have a situation where the most vulnerable part of a PSAP is the mobile trunking, the easiest way to generate a TDoS attack on a PSAP is through compromised smartphones, the code needed to generate calls on smartphones is trivial, and we have had an “accidental” attack in the wild. Unfortunately, we expect to see more deliberate attacks in the future.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 02:04 PM in <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/telephony-dos/">Telephony DoS</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/uc-security/">UC security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voice_security/">Voice Security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voip_security/">VoIP Security</a> </span> <span class="separator">|</span> <a class="permalink" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/some-more-information-about-how-tdos-affects-911-systems.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/some-more-information-about-how-tdos-affects-911-systems.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+    <p class="entry-footer-tags font-entryfooter">
+        Tags:
+        Mark Collier, robocalls, SecureLogix, TDoS, Telephony Denial of Service, Voice security, VoIP security
+    </p>
+    
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341fe9d253ef01b7c8aec571970b'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <h2 class="date-header">November 07, 2016</h2>
+
+	<div class="entry-category-telephony_dos entry-category-uc_security entry-category-voice_security entry-category-voip_security entry-author-voipsecurityblog entry-type-post entry" id="entry-6a00d8341fe9d253ef01b7c8ad3ba4970b">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/discussion-of-tdos-attacks-against-911-in-the-cyber-shield.html">Discussion of TDoS Attacks Against 911 in The Cyber Shield</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>I don&#39;t know how widely &quot;The Cyber Shield&quot; is distributed. I believe we get it because some of our folks have security clearances (so if true, lots of people get it). Anyway, there is some info about our recent article in Government Computer News (GCN). I copied the info and provided a link to the bulletin below:</p>
+<div class="page" title="Page 4">
+<div class="layoutArea">
+<div class="column">
+<p>DHS working to protect emergency call centers against denial-of-service attacks</p>
+<p>GCN, 24 Oct 2016: The distributed denial of service attack on managed DNS provider Dyn that made portions of the internet unreachable on Oct. 21 is just the latest example of the disruption caused by a system that finds itself overwhelmed with requests. Experts are still dialing for dollars when it comes to ideas for how to mitigate the risk, or even the impact, of a potential telephony denial-of-service attack on the 911 emergency services system. Read more. Is an attack on emergency services just one call away? A recent study revealed how easy it would be for bad actors to overload and disable infrastructure for the 911 emergency services in the United States. Read more. Similar to DDoS attacks, telephony denial-of-service attacks – where bad actors flood the system with illegitimate calls to knock out access to emergency services or other critical communication -- are reportedly on the rise. Tech-savvy criminals, hacktivists and even malicious nation-states see the phone system as a critical way to strong-arm federal or local authorities to pay them ransom, pay attention to their cause or just wreak havoc. With more government services facing potential cyber threats by telephone as well as online, the Department of Homeland Security has a cluster of efforts underway to lower the risk and the impact of potential telephone system-based attacks. Such attacks can swamp a 911 call center, causing a potentially life-threatening risk. In a TDoS attack an overwhelming number of calls are sent to the 911 system, and “the high number of bogus calls effectively ties up system resources so that actual 911 calls may not get through,” DHS Science and Technology Directorate Program Manager Daniel Massey said. “As attacks become larger and more sophisticated, it is very important that systems for defense also improve to meet this threat,” he added. “Our project can play a significant role in helping defend against future attacks.” In fact, DHS has a number of efforts underway to try and stem the tide of TDoS attacks, according to Mark D. Collier, CTO of SecureLogix Corp., a San Antonio, Texas-based telephony technology vendor working with DHS. Their core project together seeks ways to detect spoofing -- or differentiating fake calls from legitimate ones -- and aims to apply this to potential TDoS attacks, Colliers said. In another project, in conjunction with the University of Houston, SecureLogix and DHS are investigating how the move to Next Generation 911 might impact TDoS attacks, particularly in relation to emergency services. “When you’re dealing with 911, this could be a real emergency situation,” Collier said. “We want to make sure that we are never dropping the right call.” Collier said the pilots his company is working on include at least two city 911 call centers and a major dispatch line for police and fire fighters. Larry Shi, principal investigator for the University of Houston, said that different government agencies including the FBI and</p>
+<p>DHS have noticed the “growing number of TDoS attacks against both commercial call centers and emergency communication systems. Without proprietary protection, these attacks against 911 call centers can easily make the service unavailable which may cause serious consequences, like loss of lives.” The results of the pilot deployments should help demonstrate the effectiveness of the solution identify issues that may still need to be resolved and show how the results can be widely applicable to 911 systems around the country, as well as other critical systems that are vulnerable to telephony attacks.&#0160;<a href="https://gcn.com/articles/2016/10/24/tdos-dhs.aspx?admgarea=TC_SecCybersSec">To read more click HERE</a></p>
+<p>Here is a link to the bulletin document:</p>
+<p><span class="asset  asset-generic at-xid-6a00d8341fe9d253ef01bb095034c0970d img-responsive"><a href="https://voipsecurityblog.typepad.com/files/20161102.pdf">Download 20161102</a></span></p>
+</div>
+</div>
+</div>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 01:42 PM in <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/telephony-dos/">Telephony DoS</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/uc-security/">UC security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voice_security/">Voice Security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voip_security/">VoIP Security</a> </span> <span class="separator">|</span> <a class="permalink" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/discussion-of-tdos-attacks-against-911-in-the-cyber-shield.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/discussion-of-tdos-attacks-against-911-in-the-cyber-shield.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+    <p class="entry-footer-tags font-entryfooter">
+        Tags:
+        Mark Collier, robocalls, SecureLogix, TDoS, Telephony Denial of Service, Voice security, VoIP security
+    </p>
+    
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341fe9d253ef01b7c8ad3ba4970b'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <h2 class="date-header">November 02, 2016</h2>
+
+	<div class="entry-category-telephony_dos entry-category-uc_security entry-category-voice_security entry-category-voip_security entry-author-voipsecurityblog entry-type-post entry" id="entry-6a00d8341fe9d253ef01bb094e54cb970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/young-hacker-accidentally-generates-a-tdos-attack-against-911.html">Young Hacker "Accidentally" Generates a TDoS Attack Against 911</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>See the article below about a young hacker who &quot;accidentally&quot; or so he says, generated a Telephony Denial of Service (TDoS) attack against 911 facilities in the Phoenix area. The hacker had a twitter account with some 12,000 followers and included a link, which installed&#0160;malware on their iOS devices, which called 911 over and over again. The hacker claims that he posted the wrong link, only intending to cause popops to be displayed on the device.</p>
+<p><a href="https://securityaffairs.co/wordpress/52895/cyber-crime/911-service-attacks.html">http://securityaffairs.co/wordpress/52895/cyber-crime/911-service-attacks.html</a></p>
+<p>I have posted some recent articles describing how a botnet of infected smartphones could be used to generate a TDoS attack against 911. For convenience, I posted a few of these articles below. What makes this type of attack significant is that it is one of the few ways that you can really flood a 911 network. I will describe why in a later post.</p>
+<p><a href="https://www.washingtonpost.com/news/the-switch/wp/2016/09/09/how-americas-911-emergency-response-system-can-be-hacked/">https://www.washingtonpost.com/news/the-switch/wp/2016/09/09/how-americas-911-emergency-response-system-can-be-hacked/</a></p>
+<p><a href="https://www.computerworld.com/article/3118703/security/researchers-warn-that-hackers-can-ddos-911-emergency-phone-service.html">http://www.computerworld.com/article/3118703/security/researchers-warn-that-hackers-can-ddos-911-emergency-phone-service.html</a></p>
+<p><a href="https://gcn.com/articles/2016/09/12/tdos-911.aspx">https://gcn.com/articles/2016/09/12/tdos-911.aspx</a></p>
+<p><a href="https://gcn.com/articles/2016/09/13/tdos-solutions.aspx">https://gcn.com/articles/2016/09/13/tdos-solutions.aspx</a></p>
+<p><a href="http://www.watertowndailytimes.com/news03/schumer-calling-for-increased-security-of-911-communications-nationwide-20160922">http://www.watertowndailytimes.com/news03/schumer-calling-for-increased-security-of-911-communications-nationwide-20160922</a></p>
+<p>This recent article is the first case that I am aware of where an attack such as this has been used in the wild. I don&#39;t know how many devices were generated or how many calls were made, but the attack clearly had an impact.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 10:11 AM in <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/telephony-dos/">Telephony DoS</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/uc-security/">UC security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voice_security/">Voice Security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voip_security/">VoIP Security</a> </span> <span class="separator">|</span> <a class="permalink" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/young-hacker-accidentally-generates-a-tdos-attack-against-911.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/young-hacker-accidentally-generates-a-tdos-attack-against-911.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+    <p class="entry-footer-tags font-entryfooter">
+        Tags:
+        Mark Collier, robocalls, SecureLogix, TDoS, Telephony Denial of Service, Voice security, VoIP security
+    </p>
+    
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341fe9d253ef01bb094e54cb970d'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <h2 class="date-header">October 27, 2016</h2>
+
+	<div class="entry-category-telephony_dos entry-category-uc_security entry-category-voice_security entry-category-voip_security entry-author-voipsecurityblog entry-type-post entry" id="entry-6a00d8341fe9d253ef01bb094b9c6d970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/follow-up-article-in-gcn-about-how-dhs-st-csd-is-working-to-solve-tdos-attacks-for-911.html">Follow up article in GCN about how DHS S&T CSD is working to solve TDoS attacks for 911</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>See the follow up article below in GCN, describing how the Department of Homeland Security (DHS) Science and Technology (S&amp;T) Cyber Security Division (CSD) is working with SecureLogix help address the issue of Telephony Denial of Service (TDoS) attacks in 911 environments.</p>
+<p><a href="https://gcn.com/articles/2016/10/24/tdos-dhs.aspx">https://gcn.com/articles/2016/10/24/tdos-dhs.aspx</a></p>
+<p>I will be posting more info about these programs in the future.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 03:20 PM in <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/telephony-dos/">Telephony DoS</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/uc-security/">UC security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voice_security/">Voice Security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voip_security/">VoIP Security</a> </span> <span class="separator">|</span> <a class="permalink" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/follow-up-article-in-gcn-about-how-dhs-st-csd-is-working-to-solve-tdos-attacks-for-911.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/follow-up-article-in-gcn-about-how-dhs-st-csd-is-working-to-solve-tdos-attacks-for-911.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+    <p class="entry-footer-tags font-entryfooter">
+        Tags:
+        Mark Collier, robocalls, SecureLogix, TDoS, Telephony Denial of Service, Voice security, VoIP security
+    </p>
+    
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341fe9d253ef01bb094b9c6d970d'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <h2 class="date-header">October 10, 2016</h2>
+
+	<div class="entry-category-telephony_dos entry-category-uc_security entry-category-voice_security entry-category-voip_security entry-author-voipsecurityblog entry-type-post entry" id="entry-6a00d8341fe9d253ef01bb0941847d970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/some-recent-articles-on-telephony-denial-of-service-tdos-and-how-it-affects-911.html">Some recent articles on Telephony Denial of Service (TDoS) and how it affects 911</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>Check out the following articles on Telephony Denial of Service (TDoS) and how it could affect 911 systems. The threat described involves how a botnet of affected smart phones, could be used to flood a 911 center in the same local area as the compromised smart phones. This is definitely possible. While most 911 centers have some extra capacity, very few if any have the ability to operate effectively if flooded with 1000&#39;s of concurrent calls. This is especially true if this occurs during an emergency, when the 911 center is already inundated with legitimate calls.</p>
+<p>There are other ways to generate TDoS, such as use of free PBX software such as Asterisk, SIP trunks/a compromised service provider. However, one of the challenges is using these services to make &quot;local&quot; 911 calls. For example, if you used a SIP trunk and made 911 calls, where would they go? It is tricky to target a particular 911 center. This is why using compromised smart phones is a particularly nasty technique, because assuming you could compromise a few thousand smart phones in a large metropolitan area, you could easily use this to overwhelm the local 911 center.</p>
+<p><a href="https://www.washingtonpost.com/news/the-switch/wp/2016/09/09/how-americas-911-emergency-response-system-can-be-hacked/">https://www.washingtonpost.com/news/the-switch/wp/2016/09/09/how-americas-911-emergency-response-system-can-be-hacked/</a></p>
+<p><a href="https://gcn.com/articles/2016/09/12/tdos-911.aspx">https://gcn.com/articles/2016/09/12/tdos-911.aspx</a></p>
+<p>Finally, the Department of Homeland Security (DHS) Science and Technology Directorate (S&amp;T) Cyber Security Division (CSD) is very aware of this issue and we have been performing research with them to address this issue. I summarized this work in earlier posts and provide more details in the future. You can get a summary of this research program by watching a video recording from a DHS conference earlier this year.</p>
+<p><a href="https://www.youtube.com/watch?v=Wcl4E_MjEzE&amp;t=7s&amp;index=8&amp;list=PLPaVPPbYHq_hOoi-KjQrvXOVnkHP4ws2X">https://www.youtube.com/watch?v=Wcl4E_MjEzE&amp;t=7s&amp;index=8&amp;list=PLPaVPPbYHq_hOoi-KjQrvXOVnkHP4ws2X</a></p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 02:43 PM in <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/telephony-dos/">Telephony DoS</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/uc-security/">UC security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voice_security/">Voice Security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voip_security/">VoIP Security</a> </span> <span class="separator">|</span> <a class="permalink" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/some-recent-articles-on-telephony-denial-of-service-tdos-and-how-it-affects-911.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/some-recent-articles-on-telephony-denial-of-service-tdos-and-how-it-affects-911.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+    <p class="entry-footer-tags font-entryfooter">
+        Tags:
+        Mark Collier, robocalls, SecureLogix, TDoS, Telephony Denial of Service, Voice security, VoIP security
+    </p>
+    
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341fe9d253ef01bb0941847d970d'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <h2 class="date-header">October 07, 2016</h2>
+
+	<div class="entry-category-social_engineering entry-category-voice_security entry-category-voice_spam entry-category-voip_phishing entry-author-voipsecurityblog entry-type-post entry" id="entry-6a00d8341fe9d253ef01bb09402888970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/70-people-busted-for-irs-scam.html">70 people busted for IRS scam</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>There have been several articles about a bust of at least 70 people in India, who are behind some of the IRS scam phone scam. We have been working the the IRS/TIGTA, the FTC, and DHS CSD on this issue - it is good to see that at least one of the fraud rings has been busted. Hopefully this will result in at least a temporary reduction in this scam.</p>
+<p>Here are&#0160;articles from the Wall Street Journal and CNN. You can find several more:</p>
+<p><a href="https://www.wsj.com/articles/indian-police-detain-workers-over-possible-irs-phone-scam-1475674691">http://www.wsj.com/articles/indian-police-detain-workers-over-possible-irs-phone-scam-1475674691</a></p>
+<p><a href="https://money.cnn.com/2016/10/06/news/india-irs-scam-arrests/index.html">http://money.cnn.com/2016/10/06/news/india-irs-scam-arrests/index.html</a></p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 03:11 PM in <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/social-engineering/">Social Engineering</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voice_security/">Voice Security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voice_spam/">Voice SPAM</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voip_phishing/">VoIP Phishing</a> </span> <span class="separator">|</span> <a class="permalink" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/70-people-busted-for-irs-scam.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/70-people-busted-for-irs-scam.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+    <p class="entry-footer-tags font-entryfooter">
+        Tags:
+        Mark Collier, robocalls, SecureLogix, TDoS, Voice security, VoIP security
+    </p>
+    
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341fe9d253ef01bb09402888970d'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <h2 class="date-header">October 06, 2016</h2>
+
+	<div class="entry-category-telephony_dos entry-category-uc_security entry-category-voice_security entry-category-voice_spam entry-category-voip_security entry-author-voipsecurityblog entry-type-post entry" id="entry-6a00d8341fe9d253ef01bb093fa70a970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/videos-from-the-dhs-cyber-security-division-csd-workshop-earlier-this-year.html">Videos from the DHS Cyber Security Division (CSD) workshop earlier this year</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>Here are a couple of links to the Department of Homeland Security (DHS) Cyber Security Division (CSD) showcase earlier this year. They did a great job of recording the videos of all the presenters. We were fortunate to be a featured presenter on the first day.</p>
+<p>As I have said and I need to post some more info here, we have expanded our research program with DHS CSD to focus on addressing issues such as calling number spoofing and caller authentication, and how this helps to address voice security issues such as Telephony Denial of Service (TDoS), robocalls, scams, bomb threats, etc.</p>
+<p>The first link is to the full set of videos. The second is a link to our video. Check them out:</p>
+<div><a href="https://www.youtube.com/playlist?list=PLPaVPPbYHq_hOoi-KjQrvXOVnkHP4ws2X">https://www.youtube.com/playlist?list=PLPaVPPbYHq_hOoi-KjQrvXOVnkHP4ws2X</a></div>
+<div>&#0160;</div>
+<div><a href="https://www.youtube.com/watch?v=Wcl4E_MjEzE&amp;list=PLPaVPPbYHq_hOoi-KjQrvXOVnkHP4ws2X&amp;index=8">https://www.youtube.com/watch?v=Wcl4E_MjEzE&amp;list=PLPaVPPbYHq_hOoi-KjQrvXOVnkHP4ws2X&amp;index=8</a></div>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 11:28 AM in <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/telephony-dos/">Telephony DoS</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/uc-security/">UC security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voice_security/">Voice Security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voice_spam/">Voice SPAM</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voip_security/">VoIP Security</a> </span> <span class="separator">|</span> <a class="permalink" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/videos-from-the-dhs-cyber-security-division-csd-workshop-earlier-this-year.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/videos-from-the-dhs-cyber-security-division-csd-workshop-earlier-this-year.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+    <p class="entry-footer-tags font-entryfooter">
+        Tags:
+        Mark Collier, robocalls, SecureLogix, TDoS, Telephony Denial of Service, Voice security, VoIP security
+    </p>
+    
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341fe9d253ef01bb093fa70a970d'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+    
+
+    
+
+
+
+
+    <h2 class="date-header">July 24, 2016</h2>
+
+	<div class="entry-category-telephony_dos entry-category-uc_security entry-category-voip_security entry-author-voipsecurityblog entry-type-post entry" id="entry-6a00d8341fe9d253ef01bb092278c0970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/07/back-to-blogging.html">Back to Blogging</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>It is time to start blogging again. I have been really busy. Aside from normal work, I am ramping up my work with the Cyber Security Division (CSD) of DHS S&amp;T, to focus on addressing calling number spoofing/lack of authentication, and applying this to voice attacks, such as Telephony Denial of Service (TDoS), robocalls, bomb threats, social engineering, etc. More on this in coming posts.</p>
+<p>The first thing I am going to do is get rid of most of the lists on this blog. It is difficult to manage them and you can easily find all the articles I post on these on twitter, LinkedIn, and Google+. Follow me there or search for posts if you are interested.</p>
+<p>&#0160;</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 09:05 AM in <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/telephony-dos/">Telephony DoS</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/uc-security/">UC security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voip_security/">VoIP Security</a> </span> <span class="separator">|</span> <a class="permalink" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/07/back-to-blogging.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/07/back-to-blogging.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+    <p class="entry-footer-tags font-entryfooter">
+        Tags:
+        Mark Collier, SecureLogix, TDoS, Telephony Denial of Service, UC Security, Unified Communications Security, Voice Over IP Security, Voice Security, VoIP Security
+    </p>
+    
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341fe9d253ef01bb092278c0970d'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <h2 class="date-header">August 12, 2015</h2>
+
+	<div class="entry-category-telephony_dos entry-category-uc_security entry-category-voice_security entry-category-voip_security entry-author-voipsecurityblog entry-type-post entry" id="entry-6a00d8341fe9d253ef01b8d147fca2970c">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/08/video-on-a-how-to-use-a-burner-cell-phone-for-tdos.html">Video on a How to Use a Burner Cell Phone for TDoS</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>Here is a video from last years DefCon on how to use a burner cell phone to generate a bunch of calls for a Telephony Denial of Service (TDoS) attack. This allows an attacker to create a virtually untraceable and highly anonymous attack. Even with a single phone, you can generate enough calls for a long enough period, to affect a small target, such as a hospital ER/ICU, small business, a small PSAP, etc.</p>
+<p><a class="asset-img-link" href="https://voipsecurityblog.typepad.com/.a/6a00d8341fe9d253ef01bb08626e51970d-pi" style="display: inline;"><img alt="Screen Shot 2015-08-12 at 11.48.57 AM" border="0" class="asset  asset-image at-xid-6a00d8341fe9d253ef01bb08626e51970d image-full img-responsive" src="https://voipsecurityblog.typepad.com/.a/6a00d8341fe9d253ef01bb08626e51970d-800wi" title="Screen Shot 2015-08-12 at 11.48.57 AM" /></a><a href="https://www.youtube.com/watch?v=EDci2gb3ruQ&amp;feature=youtu.be" target="_self" title="">Link To TDoS Video</a></p>
+<p>&#0160;</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 11:57 AM in <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/telephony-dos/">Telephony DoS</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/uc-security/">UC security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voice_security/">Voice Security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voip_security/">VoIP Security</a> </span> <span class="separator">|</span> <a class="permalink" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/08/video-on-a-how-to-use-a-burner-cell-phone-for-tdos.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/08/video-on-a-how-to-use-a-burner-cell-phone-for-tdos.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+    <p class="entry-footer-tags font-entryfooter">
+        Tags:
+        Collaboration Security, Mark Collier, SecureLogix, TDoS, Telephony Denial of Service, UC Security, Unified Communications Security, Voice Over IP Security, Voice Security, VoIP Security
+    </p>
+    
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341fe9d253ef01b8d147fca2970c'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+    
+
+    
+
+
+
+
+    <h2 class="date-header">August 11, 2015</h2>
+
+	<div class="entry-category-telephony_dos entry-category-uc_security entry-category-voip_security entry-author-voipsecurityblog entry-type-post entry" id="entry-6a00d8341fe9d253ef01b7c7bd560d970b">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/08/the-department-of-homeland-security-science-and-technology-directorate-cyber-security-division-hosted-their-annual-show-cas.html">DHS Cyber Security Division Publishes Videos from Most Recent Showcase</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>The Department of Homeland Security, Science and Technology Directorate, Cyber Security Division hosted their annual show case late last year. This event gives all active researchers the opportunity to briefly cover their area of research. DHS just posted the videos. These are definitely worth watching - you will get a good idea of the program areas and the great research (and transition) that is going on.</p>
+<p><a class="asset-img-link" href="https://voipsecurityblog.typepad.com/.a/6a00d8341fe9d253ef01b7c7bd6d35970b-pi" style="display: inline;"><img alt="Screen Shot 2015-08-11 at 12.45.46 AM" border="0" class="asset  asset-image at-xid-6a00d8341fe9d253ef01b7c7bd6d35970b image-full img-responsive" src="https://voipsecurityblog.typepad.com/.a/6a00d8341fe9d253ef01b7c7bd6d35970b-800wi" title="Screen Shot 2015-08-11 at 12.45.46 AM" /></a></p>
+<p><a href="Mark Collier, SecureLogix, UC Security, Unified Communications Security, VoIP Security, Voice Over IP Security, Voice Security, Collaboration Security" target="_self" title="">Link to the DHS Research Showcase Videos</a></p>
+<p>I am currently working on two new projects with this group, one focused on complex distributed Telephony Denial of Service (TDoS) and another on TDoS and other issues affecting Next Generation 911 systems. I documented the first project in a previous post. The second just started and I will introduce it in a subsequent post.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 12:41 AM in <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/telephony-dos/">Telephony DoS</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/uc-security/">UC security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voip_security/">VoIP Security</a> </span> <span class="separator">|</span> <a class="permalink" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/08/the-department-of-homeland-security-science-and-technology-directorate-cyber-security-division-hosted-their-annual-show-cas.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/08/the-department-of-homeland-security-science-and-technology-directorate-cyber-security-division-hosted-their-annual-show-cas.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+    <p class="entry-footer-tags font-entryfooter">
+        Tags:
+        Collaboration Security, Mark Collier, SecureLogix, TDoS, Telephony Denial of Service, UC Security, Unified Communications Security, Voice Over IP Security, Voice Security, VoIP Security
+    </p>
+    
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341fe9d253ef01b7c7bd560d970b'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <h2 class="date-header">August 03, 2015</h2>
+
+	<div class="entry-category-social_engineering entry-category-uc_security entry-category-voice_security entry-category-voip_security entry-author-voipsecurityblog entry-type-post entry" id="entry-6a00d8341fe9d253ef01b8d142e313970c">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/08/new-calling-numbercaller-id-spoofing-tool.html">New Calling Number/Caller ID Spoofing Tool</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>A new Internet based tool is available now to simplify making calls with spoofed calling number. The main difference with this tool, is that it only accepts Bitcoin, so it is more anonymous. It certainly lowers the bar provides another tool for those performing social engineering. I included a few links below the image with more information.</p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+<p><a class="asset-img-link" href="https://voipsecurityblog.typepad.com/.a/6a00d8341fe9d253ef01b8d142e272970c-pi" style="display: inline;"><img alt="Bitphone-648x400" border="0" class="asset  asset-image at-xid-6a00d8341fe9d253ef01b8d142e272970c image-full img-responsive" src="https://voipsecurityblog.typepad.com/.a/6a00d8341fe9d253ef01b8d142e272970c-800wi" title="Bitphone-648x400" /></a></p>
+<p><a href="https://www.theregister.co.uk/2015/07/28/bitphone_caller_id_spoofing_bitcoin/" target="_self" title="">Article in SC Magazine</a></p>
+<p><a href="https://securityaffairs.co/wordpress/38950/hacking/bitphone-voip-service.html" target="_self" title="">Article in Security Affairs</a></p>
+<p>Of &#0160;course serious social engineers and phone scammers have their own tools, usually sitting behind their own Asterisk server, so they have a lot of control over what their calls look like.</p>
+<p>&#0160;</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 12:28 AM in <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/social-engineering/">Social Engineering</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/uc-security/">UC security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voice_security/">Voice Security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voip_security/">VoIP Security</a> </span> <span class="separator">|</span> <a class="permalink" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/08/new-calling-numbercaller-id-spoofing-tool.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/08/new-calling-numbercaller-id-spoofing-tool.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+    <p class="entry-footer-tags font-entryfooter">
+        Tags:
+        Collaboration Security, Mark Collier, SecureLogix, UC Security, Unified Communications Security, Voice Over IP Security, Voice Security, VoIP Security
+    </p>
+    
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341fe9d253ef01b8d142e313970c'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <h2 class="date-header">July 24, 2015</h2>
+
+	<div class="entry-category-telephony_dos entry-category-uc_security entry-category-voice_security entry-category-voip_security entry-author-voipsecurityblog entry-type-post entry" id="entry-6a00d8341fe9d253ef01b8d13cedbb970c">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/07/the-national-law-review-talks-about-telephony-denial-of-service-tdos.html">The National Law Review Talks About Telephony Denial of Service (TDoS)</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p><a class="asset-img-link" href="https://voipsecurityblog.typepad.com/.a/6a00d8341fe9d253ef01b8d13ced7c970c-pi" style="display: inline;"><img alt="Logo" border="0" class="asset  asset-image at-xid-6a00d8341fe9d253ef01b8d13ced7c970c img-responsive" src="https://voipsecurityblog.typepad.com/.a/6a00d8341fe9d253ef01b8d13ced7c970c-800wi" title="Logo" /></a></p>
+<p>&#0160;</p>
+<p>The National Law Review included a brief article on Telephony Denial of Service. Mostly talking about the impacts to health care and emergency services. Check out the article at the link below:</p>
+<p><a href="http://www.natlawreview.com/article/cybersecurity-warning-bulletin-telephony-denial-service-attacks-continue-current-foc" target="_self" title="">Link to National Law Review Article on TDoS</a>&#0160;</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 11:10 AM in <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/telephony-dos/">Telephony DoS</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/uc-security/">UC security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voice_security/">Voice Security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voip_security/">VoIP Security</a> </span> <span class="separator">|</span> <a class="permalink" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/07/the-national-law-review-talks-about-telephony-denial-of-service-tdos.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/07/the-national-law-review-talks-about-telephony-denial-of-service-tdos.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+    <p class="entry-footer-tags font-entryfooter">
+        Tags:
+        Collaboration Security, Mark Collier, SecureLogix, Telephony Denial of Service, UC Security, Unified Communications Security, Voice Over IP Security, Voice Security, VoIP Security
+    </p>
+    
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341fe9d253ef01b8d13cedbb970c'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <h2 class="date-header">July 10, 2015</h2>
+
+	<div class="entry-category-telephony_dos entry-category-uc_security entry-category-voice_security entry-category-voip_security entry-author-voipsecurityblog entry-type-post entry" id="entry-6a00d8341fe9d253ef01b8d135f11c970c">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/07/the-department-of-homeland-security-dhs-and-securelogix-team-on-tdos-research.html">The Department of Homeland Security (DHS) and SecureLogix Team on TDoS Research</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>For those following my blog, you know that Telephony Denial of Service (TDoS) is a flood of unwanted inbound calls, typically to an enterprise contact center. The calls can arrive at any enterprise or any part of an enterprise, but are normally targeted at critical voice lines. This includes 911, other public safety numbers, hospital emergency rooms and intensive care units, key parts of financial contact centers, and other organizations. &#0160;TDoS attacks are the most significant form of voice-related DoS, because they involve malicious calls, are easy to generate, and can affect enterprises using both TDM and SIP networks. The following diagram illustrates a TDoS attack:</p>
+<p><a class="asset-img-link" href="https://voipsecurityblog.typepad.com/.a/6a00d8341fe9d253ef01b7c7ac7b44970b-pi" style="display: inline;"><img alt="Slide2" border="0" class="asset  asset-image at-xid-6a00d8341fe9d253ef01b7c7ac7b44970b image-full img-responsive" src="https://voipsecurityblog.typepad.com/.a/6a00d8341fe9d253ef01b7c7ac7b44970b-800wi" title="Slide2" /></a></p>
+<p>The Department of Homeland Security (DHS), the Federal Bureau of Investigation (FBI), and service providers have produced a number of warnings and bulletins about TDoS. A few of the more recent ones can be found in prior posts on this blog.&#0160;</p>
+<p>There have been over 1000 attacks reported to service providers and the Department of Homeland Security (DHS). A good summary can be found at <a href="https://nakedsecurity.sophos.com/2014/01/22/tdos-extortionists-jam-phone-lines-of-public-services-including-hospitals/">https://nakedsecurity.sophos.com/2014/01/22/tdos-extortionists-jam-phone-lines-of-public-services-including-hospitals/</a>.&#0160;</p>
+<p>Attacks such as this are simple, but still very effective. They do not involve a significant amount of volume in terms of concurrent calls and they are not very sophisticated or complex in terms of spoofing call information, such as the calling party number or ANI. We expect that in the near term, more complex attacks will be seen, involving greater sophistication in terms of spoofing call information and much greater volume. The following table illustrates the progression we have seen and expect in the future for TDoS:</p>
+<p><a class="asset-img-link" href="https://voipsecurityblog.typepad.com/.a/6a00d8341fe9d253ef01b7c7ac7b7e970b-pi" style="display: inline;"><img alt="Slide4" border="0" class="asset  asset-image at-xid-6a00d8341fe9d253ef01b7c7ac7b7e970b image-full img-responsive" src="https://voipsecurityblog.typepad.com/.a/6a00d8341fe9d253ef01b7c7ac7b7e970b-800wi" title="Slide4" /></a></p>
+<p>In a short amount of time, we expect these attacks to become more common, be more sophisticated (complex), and involve greater volume (distributed). This will make the attacks much more difficult to detect and mitigate, both for the target enterprise as well as service providers.</p>
+<p>The DHS Science and Technology Directorate (S&amp;T) Cyber Security Division (CSD) recognizes the TDoS threat and has funded SecureLogix for two Research and Development (R&amp;D) efforts.&#0160; The first effort is to define the evolving threat, define enterprise and service provider countermeasures, and build solutions for these environments. The second effort involves a broad look at security issues affecting Next Generation 911, including TDoS, which will be particularly disruptive for these environments. These R&amp;D efforts will produce a TDoS solution that can address the most sophisticated attacks, for both TDM and SIP networks, within both enterprise and service provider networks. While the final solution is still being developed, a basic approach involves use of several filters, which score calls based upon pre-call signaling information, queries to network authentication services, and then content and possible use of turing tests. All controlled by enterprise-defined policy. These filters are shown in the following diagram:</p>
+<p><a class="asset-img-link" href="https://voipsecurityblog.typepad.com/.a/6a00d8341fe9d253ef01b8d135f104970c-pi" style="display: inline;"><img alt="Slide6" border="0" class="asset  asset-image at-xid-6a00d8341fe9d253ef01b8d135f104970c image-full img-responsive" src="https://voipsecurityblog.typepad.com/.a/6a00d8341fe9d253ef01b8d135f104970c-800wi" title="Slide6" /></a></p>
+<p>We will be posting more information as this R&amp;D effort progresses. You can track our progress on these efforts by following this blog and our twitter feeds at @markcollier46 and @dhsscitech.</p>
+<p>&#0160;</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 01:24 PM in <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/telephony-dos/">Telephony DoS</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/uc-security/">UC security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voice_security/">Voice Security</a>, <a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/voip_security/">VoIP Security</a> </span> <span class="separator">|</span> <a class="permalink" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/07/the-department-of-homeland-security-dhs-and-securelogix-team-on-tdos-research.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/07/the-department-of-homeland-security-dhs-and-securelogix-team-on-tdos-research.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+    <p class="entry-footer-tags font-entryfooter">
+        Tags:
+        Collaboration Security, Mark Collier, SecureLogix, Telephony Denial of Service, UC Security, Unified Communications Security, Voice Over IP Security, Voice Security, VoIP Security
+    </p>
+    
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341fe9d253ef01b8d135f11c970c'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+
+
+
+    <h2 class="date-header">June 23, 2015</h2>
+
+	<div class="entry-author-voipsecurityblog entry-type-post entry" id="entry-6a00d8341fe9d253ef01b7c7a33ed1970b">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/06/how-pakistan-helped-capture-a-criminal-responsible-of-millions-in-toll-fraud.html">How Pakistan Helped Capture a Criminal Responsible of Millions in Toll Fraud</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>This is one of the best articles I have read in a while. It covers how Pakistan captured multiple individuals on the FBI&#39;s most wanted list - responsible for millions of dollars of toll fraud and International Revenue Sharing Fraud (IRSF). It also covers some of their techniques. Toll fraud/IRSF isn&#39;t sexy, but it is definitely a way to make money.</p>
+<p><a href="http://www.ibtimes.com/inside-story-how-pakistan-took-down-fbis-most-wanted-cybercriminal-1860808" target="_self" title="">http://www.ibtimes.com/inside-story-how-pakistan-took-down-fbis-most-wanted-cybercriminal-1860808</a></p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">Posted at 11:45 AM </span> <span class="separator">|</span> <a class="permalink" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/06/how-pakistan-helped-capture-a-criminal-responsible-of-millions-in-toll-fraud.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/06/how-pakistan-helped-capture-a-criminal-responsible-of-millions-in-toll-fraud.html#comments">Comments (0)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+    
+    <p class="entry-footer-tags font-entryfooter">
+        Tags:
+        Collaboration Security, Mark Collier, SecureLogix, Toll Fraud, UC Security, Unified Communications Security, Voice Over IP Security, Voice Security, VoIP Security
+    </p>
+    
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='https://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341fe9d253ef01b7c7a33ed1970b'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='https://static.typepad.com/.shared/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+			<div class="pager-bottom pager-entries pager content-nav">
+		<div class="pager-inner">
+			
+			
+			<span class="pager-right">
+				<a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/page/2/"><span class="pager-label">Next</span>
+					<span class="chevron">&#187;</span></a>
+			</span>
+		</div>
+	</div>
+	
+	
+
+        
+
+
+
+                                                </div>
+                                        </div>
+                                        <div id="beta">
+                                                <div id="beta-inner" class="pkg">
+                                                        <!-- sidebar -->
+
+
+<!-- user photo -->
+    <div class="module-photo module">
+
+
+     
+
+
+<div class="module-content">
+
+
+<img src="https://voipsecurityblog.typepad.com/.a/6a00d8341fe9d253ef017d41354800970c-150wi" alt="My Photo" class="img-responsive" />
+
+
+</div></div>
+
+<div class="module-email module">
+	<div class="module-content">
+		<script type="text/javascript">
+<!--
+document.write('<a href="ma' + 'ilto:&#118;&#111;&#105;&#112;&#115;&#101;&#99;&#117;&#114;&#105;&#116;&#121;&#98;&#108;&#111;&#103;&#64;&#115;&#101;&#99;&#117;&#114;&#101;&#108;&#111;&#103;&#105;&#120;&#46;&#99;&#111;&#109;">Email Me</a>');
+// -->
+</script>
+
+	</div>
+</div>
+<!-- list_inlcude.tt  -->
+<div id="search_blog" class="module-typelist module">
+<h2 class="module-header">Search Blog</h2>
+	<div class="typelist-plain module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><div class="typelist-note-label">Search Blog</div><div class="typelist-note"> <form method="get" action="https://www.google.com/search">
+  <input type="hidden" name="ie" value="UTF-8" /> 
+  <input type="hidden" name="oe" value="UTF-8" /> 
+  <div style="background-color:white;">
+   <a href="https://www.google.com/"><img src="https://www.google.com/logos/Logo_40wht.gif" border="0" alt="Google" /></a>
+   </div>
+   <input type="text" name="q" size="18" maxlength="255" value="" /><br />
+   <small>
+    <input type="hidden" name="domains" value="example.typepad.com" />
+    <input type="radio" name="sitesearch" value="" /> WWW <br />
+    <input type="radio" name="sitesearch" value="example.typepad.com" checked="checked" /> voipsecurityblog.typepad.com
+   <br /></small>
+    <input type="submit" name="btnG" value=" Google Search " /> 
+ </form>
+ <!-- SiteSearch Google -->
+</div></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+
+<!-- Facebook Like Module -->
+<div class="module-facebook-like module">
+    <h2 class="module-header">Become a Fan</h2>
+    <div class="module-content" id="facebook-like-container">
+        <script>
+        ( function() {
+            var container = document.getElementById( 'facebook-like-container' );
+            if ( container ) {
+    /* new like
+                var e = document.createElement( 'div' );
+                e.setAttribute( 'class', 'fb-like' );
+                e.setAttribute( 'data-href', 'https://voipsecurityblog.typepad.com/marks_voip_security_blog/' );
+                e.setAttribute( 'data-layout', container.offsetWidth < 225 ? 'button_count' : 'standard' );
+                e.setAttribute( 'data-width', container.offsetWidth );
+                e.setAttribute( 'data-share', 'false' );
+                e.setAttribute( 'data-colorscheme', 'light' );
+                container.appendChild( e );  
+     */
+                var e = document.createElement( 'fb:like' );
+                e.setAttribute( 'href', 'https://voipsecurityblog.typepad.com/marks_voip_security_blog/' );
+                e.setAttribute( 'layout', container.offsetWidth < 225 ? 'button_count' : 'standard' );
+                // FB.XFBML.Element._getPxAttribute dies with an error in IE
+                // if the value of "width" is set to an integer, not a string.
+                e.setAttribute( 'width', container.offsetWidth + 'px' );
+                e.setAttribute( 'colorscheme', 'light' );
+                container.appendChild( e );
+            }
+        } )();
+        </script>
+    </div>
+</div>
+<!-- END Facebook Like Module -->
+<div class="module-syndicate module">
+	<div class="module-content">
+	<a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/atom.xml"><i class="fas fa-rss"></i> Subscribe to this blog's feed</a>
+	</div>
+</div>
+<!-- about page link -->
+<div class="module-about module">
+	<h2 class="module-header"><a
+		href="https://voipsecurityblog.typepad.com/about.html">About</a></h2>
+</div>
+	<div class="module-archives module">
+		<h2 class="module-header">Recent Posts</h2>
+		<div class="module-content">
+			<ul class="module-list">
+				
+									<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/links-to-recent-tdos-articles.html">Links to recent TDoS articles</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/some-more-information-about-how-tdos-affects-911-systems.html">Some more information about how TDoS affects 911 systems</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/discussion-of-tdos-attacks-against-911-in-the-cyber-shield.html">Discussion of TDoS Attacks Against 911 in The Cyber Shield</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/young-hacker-accidentally-generates-a-tdos-attack-against-911.html">Young Hacker "Accidentally" Generates a TDoS Attack Against 911</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/follow-up-article-in-gcn-about-how-dhs-st-csd-is-working-to-solve-tdos-attacks-for-911.html">Follow up article in GCN about how DHS S&T CSD is working to solve TDoS attacks for 911</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/some-recent-articles-on-telephony-denial-of-service-tdos-and-how-it-affects-911.html">Some recent articles on Telephony Denial of Service (TDoS) and how it affects 911</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/70-people-busted-for-irs-scam.html">70 people busted for IRS scam</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/videos-from-the-dhs-cyber-security-division-csd-workshop-earlier-this-year.html">Videos from the DHS Cyber Security Division (CSD) workshop earlier this year</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/07/back-to-blogging.html">Back to Blogging</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/08/video-on-a-how-to-use-a-burner-cell-phone-for-tdos.html">Video on a How to Use a Burner Cell Phone for TDoS</a></li>
+					
+				
+			</ul>
+		</div>
+	</div>
+<!-- archives -->
+
+	<div class="module-archives module">
+		<h2 class="module-header"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/archives.html">Archives</a></h2>
+		<div class="module-content">
+			<ul class="module-list">
+				
+					
+					<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/11/index.html">November 2016</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/10/index.html">October 2016</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2016/07/index.html">July 2016</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/08/index.html">August 2015</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/07/index.html">July 2015</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/06/index.html">June 2015</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/03/index.html">March 2015</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/02/index.html">February 2015</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2015/01/index.html">January 2015</a></li>
+				
+					
+					<li class="module-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/2014/10/index.html">October 2014</a></li>
+				
+			</ul>
+		</div>
+	</div>
+
+<!-- list_inlcude.tt  -->
+<div id="my_books" class="module-typelist module">
+<h2 class="module-header">My Books</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a href="https://www.amazon.com/Hacking-Exposed-Communications-Security-Solutions/dp/0071798765/ref=sr_1_1?ie=UTF8&amp;qid=1386345514&amp;sr=8-1&amp;keywords=hacking+exposed+unified+communications">Hacking Exposed Unified Communications & VoIP Security Secrets & Solutions 2/E: Mark Collier, David Endler: 9780071798761: Amazon.com: Books, 12/2013</a><br /></li>
+							<li class="module-list-item"><a href="https://www.amazon.com/Hacking-Exposed-VoIP-Security-Solutions/dp/0072263644/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1225210464&amp;sr=1-1">Hacking Exposed VoIP: Voice Over IP Security Secrets & Solutions: David Endler,Mark Collier: 9780072263640: Amazon.com: Books</a><br /></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+<!-- list_inlcude.tt  -->
+<div id="my_voice_security_articles" class="module-typelist module">
+<h2 class="module-header">My Voice Security Articles</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a href="http://www.providencejournal.com/article/20160221/NEWS/160229897">Investigators faced high-tech puzzle in tracing R.I. robocall threats - News - providencejournal.com - Providence, RI, 2/2016</a><br /></li>
+							<li class="module-list-item"><a href="https://securityaffairs.co/wordpress/21724/cyber-crime/exploring-telephony-denial-service-tdos-qa.html">Exploring the Telephony Denial of Service (TDoS) Security Affairs, 1/2014</a><br /></li>
+							<li class="module-list-item"><a href="https://krebsonsecurity.com/2013/04/dhs-warns-of-tdos-extortion-attacks-on-public-emergency-networks/#more-19472">DHS warns of TDoS attacks - Krebs on Security, 4/2013</a><br /></li>
+							<li class="module-list-item"><a href="https://www.nytimes.com/2014/01/20/technology/swindlers-use-telephones-with-internets-tactics.html?hpw&amp;rref=technology&amp;_r=1">Swindlers use telephones, with Internet Tactics (TDoS), 1/2014</a><br /></li>
+							<li class="module-list-item"><a href="http://searchunifiedcommunications.techtarget.com/news/2240217298/SecureLogix-CTO-The-UC-network-security-issues-enterprises-face?utm_medium=referral&amp;utm_source=t.co">SecureLogix CTO: The UC network security issues enterprises face, 4/2014</a><br /></li>
+							<li class="module-list-item"><a href="http://www.connect-converge.com/Spring_2013/#?page=34">Mark Collier Article on VoIP/UC Security, 3/2013</a><br /></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+<!-- list_inlcude.tt  -->
+<div id="voice_security_docsvideos" class="module-typelist module">
+<h2 class="module-header">Voice Security Docs/Videos</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a href="http://www.sipforum.org/component/option,com_docman/task,doc_view/gid,708/Itemid,261/" >How SIP has made voice attacks more common, 6/2014</a><br /></li>
+							<li class="module-list-item"><a href="https://www.youtube.com/watch?v=EDci2gb3ruQ&amp;feature=youtu.be" >DEF CON 22 - Weston Hecker - Burner Phone DDOS 2 dollars a day : 70 Calls a Minute - YouTube, 8/2015</a><br /></li>
+							<li class="module-list-item"><a href="https://www.youtube.com/watch?v=9OSvqjxMZBs" >Kamailio World 2015 - Sergio García Ramos - VoIP Security – Bluebox ng   Continuous Pentesting - YouTube, 6/2015</a><br /></li>
+							<li class="module-list-item"><a href="https://www.ernw.de/download/T2_VoIP_TollFraud_cwerny_v1.0.pdf" >A presentation on toll fraud, 12/2014</a><br /></li>
+							<li class="module-list-item"><a href="http://www.slideshare.net/isightsoftware/keeping-denial-of-service-and-financial-fraud-out-of-your-contact-center" >Keeping Denial of Service and Financial Fraud out of Your Contact Center, 6/2015</a><br /></li>
+							<li class="module-list-item"><a href="http://www.securelogix.com/sos/" >SecureLogix® State of Security Report, 6/2014</a><br /></li>
+							<li class="module-list-item"><a href="http://www.securitytube.net/video/10151" >Carolinacon 2014 - How To Get Money Fast Using A Pwned Pbx - Patrick Mcneil / Unregistered436, 6/2014</a><br /></li>
+							<li class="module-list-item"><a href="https://www.youtube.com/watch?v=bSg3tAkh5gA">Hacking SIP Like a Boss! (Athcon 2013) Live Demo Remake - YouTube, 7/2013</a><br /></li>
+							<li class="module-list-item"><a href="http://www.slideshare.net/AvayaInc/voip-security-of-dummies" >VoIP Security for Dummies, 9/2013</a><br /></li>
+							<li class="module-list-item"><a href="http://www.slideshare.net/fozavci/voip-wars-return-of-the-sip" >VoIP Wars : Return of the SIP, 7/2013</a><br /></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+<!-- list_inlcude.tt  -->
+<div id="voice_security_links" class="module-typelist module">
+<h2 class="module-header">Voice Security Links</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a href="http://www.voip-info.org/wiki/view/VOIP+Security">VOIP Security - voip-info.org</a><br /></li>
+							<li class="module-list-item"><a href="https://telecom-fraud.blogspot.com">Telecom Fraud and Technologies</a><br /></li>
+							<li class="module-list-item"><a href="https://ucsecurity.wordpress.com">A Unified Communications / IP Telephony Security Blog</a><br /></li>
+							<li class="module-list-item"><a href="http://www.trustid.com/blog/">blog | TrustID | Automatic Caller Authentication</a><br /></li>
+							<li class="module-list-item"><a href="http://securityskeptic.typepad.com/the-security-skeptic/voip-security-resources.html">VOIP Security Resources - The Security Skeptic</a><br /></li>
+							<li class="module-list-item"><a href="http://www.voipsa.org">Voice over IP Security Alliance (VOIPSA)</a><br /></li>
+							<li class="module-list-item"><a href="http://www.7ducattacks.com/">Seven Deadliest Unified Communications Attacks</a><br /></li>
+							<li class="module-list-item"><a href="http://www.blueboxpodcast.com">Blue Box: The VoIP Security Podcast</a><br /></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+<!-- list_inlcude.tt  -->
+<div id="telephony_denial_of_service_tdos" class="module-typelist module">
+<h2 class="module-header">Telephony Denial of Service (TDoS)</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a href="https://securityaffairs.co/wordpress/33867/cyber-crime/tnt-gang-released-tdos-tool.html">“TNT” gang has released a new hardware TDoS toolSecurity, 2/2015 Affairs</a><br /></li>
+							<li class="module-list-item"><a href="https://getvoip.com/blog/2015/02/03/contact-centers-security-issues">5 Types of Contact Centers Security Issues & How To Combat Them, 2/1015</a><br /></li>
+							<li class="module-list-item"><a href="http://www.webroot.com/blog/2014/03/21/managed-anti-forensics-imei-modification-services-fuel-growth-anti-forensics-market-segment/" >Managed anti-forensics IMEI modification services fuel growth in the non-attributable TDoS market segment Webroot Threat Blog, 4/2014</a><br /></li>
+							<li class="module-list-item"><a href="https://securityaffairs.co/wordpress/21272/cyber-crime/tdos-products-evolution.html">TDoS products evolution in the underground market | Security Affairs, 1/2014</a><br /></li>
+							<li class="module-list-item"><a href="https://nakedsecurity.sophos.com/2014/01/22/tdos-extortionists-jam-phone-lines-of-public-services-including-hospitals/#comment-1638663">TDoS extortionists jam phone lines of public services, including hospitals | Naked Security, 1/2014</a><br /></li>
+							<li class="module-list-item"><a href="http://www.webroot.com/blog/2014/01/16/new-tdos-market-segment-entrant-introduces-96-sim-cards-compatible-custom-gsm-module-positions-market-disruptor/" >New TDoS market segment entrant introduces 96 SIM cards compatible custom GSM module, positions itself as market disruptor Webroot Threat Blog, 1/2014</a><br /></li>
+							<li class="module-list-item"><a href="http://www.webroot.com/blog/2013/11/15/vendor-tdos-productsservices-releases-new-multi-threaded-sip-based-tdos-tool/" >Vendor of TDoS products/services releases new multi-threaded SIP-based TDoS tool Webroot Threat Blog, 11/2013</a><br /></li>
+							<li class="module-list-item"><a href="http://www.webroot.com/blog/2013/10/03/vertically-integrating-ddos-hire-vendor-spotted-wild/" >DDoS for hire vendor 'vertically integrates' starts offering TDoS attack capabilities Webroot Threat Blog, 9/2013</a><br /></li>
+							<li class="module-list-item"><a href="http://searchunifiedcommunications.techtarget.com/tip/TDoS-attacks-on-the-rise-Who-is-at-risk-and-what-to-do-under-attack" >TDoS attacks on the rise: Who is at risk and what to do under attack, 9/2013</a><br /></li>
+							<li class="module-list-item"><a href="http://www.9-1-1magazine.com/Kahn-Threat-of-TDoS-Attacks" >9-1-1 Magazine: The Growing Threat to PSAPs from Telephony Denial of Service (TDoS) Attacks, 7/2013</a><br /></li>
+							<li class="module-list-item"><a href="https://blog.webroot.com/2013/04/19/diy-sip-based-tdos-toolnumber-validity-checker-offered-for-sale/">DIY SIP-based TDoS tool/number validity checker offered for sale | Webroot Threat Blog - Internet Security Threat Updates from Around the World, 04/2013</a><br /></li>
+							<li class="module-list-item"><a href="https://blog.webroot.com/tag/tdos/">TDoS | Webroot Threat Blog - Internet Security Threat Updates from Around the World, 06/2013</a><br /></li>
+							<li class="module-list-item"><a href="http://www.csoonline.com/article/731069/dhs-fbi-warn-over-tdos-attacks-on-emergency-centers" >DHS, FBI warn over TDoS attacks on emergency centers -  CSO Online  - Security and Risk, 4/2013</a><br /></li>
+							<li class="module-list-item"><a href="http://psc.apcointl.org/2013/03/28/telephony-denial-of-services-tdos-to-public-safety-communications-phone-service/" >Telephony Denial of Services (TDOS) to Public Safety Communications Phone Service  |  Public Safety Communications, 3/2013</a><br /></li>
+							<li class="module-list-item"><a href="https://www.fbi.gov/news/testimony/cyber-security-threats-to-the-financial-sector">FBI — Cyber Security: Threats to the Financial Sector, 9/2011</a><br /></li>
+							<li class="module-list-item"><a href="http://www.foxnews.com/entertainment/2011/08/14/rapper-game-may-face-charges-tied-to-flash-mob-calls/" >Rapper The Game May Face Charges Tied To Flash Mob Calls  | FoxNews.com, 8/2011</a><br /></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+
+
+
+
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+</div> <!-- row -->
+                        
+
+
+<!-- container-footer -->
+<div id="footer">
+<div class="row well"><div class="col-md-12">
+	<div id="footer-inner">
+		<ul class="footer-list pkg list-inline" >
+			<li class="footer-list-item"><a href="https://voipsecurityblog.typepad.com/marks_voip_security_blog/">Mark Collier's VoIP Security Blog</a></li>
+			<li class="last-footer-list-item footer-list-item"><a href="http://www.typepad.com/">Powered by TypePad</a></li>
+		</ul>
+	</div>
+</div></div>
+</div>
+
+                </div>
+        </div>
+        
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+<!--
+var extra_happy = Math.floor(1000000000 * Math.random());
+document.write('<img src="https://www.typepad.com/t/stats?blog_id=315477&amp;user_id=753589&amp;page=' + escape(location.href) + '&amp;referrer=' + escape(document.referrer) + '&amp;i=' + extra_happy + '" width="1" height="1" alt="" style="position: absolute; top: 0; left: 0;" />');
+// -->
+</script>
+
+
+
+<!-- Begin disqus Tag -->
+
+<!-- End disqus Tag -->
+</body>
+</html>
+
+<!-- ph=1 -->
